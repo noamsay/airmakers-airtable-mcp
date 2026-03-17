@@ -4,9 +4,7 @@
   "description": "Custom Airtable MCP connector with schema write support",
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/index.js",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "dev": "node --watch src/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.1",
