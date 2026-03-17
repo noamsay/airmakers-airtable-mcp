@@ -1,15 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "src/index.ts",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/mcp",
-      "dest": "src/index.ts"
-    }
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" }
   ]
 }
